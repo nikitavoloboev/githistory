@@ -1,3 +1,9 @@
+import { EditorStateProvider } from "./editor/@host/@owner/@repository/State"
+
 export default function Page() {
-  return <div>testing</div>
+  return (
+    <EditorStateProvider>
+      <></>
+    </EditorStateProvider>
+  )
 }
