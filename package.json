@@ -1,7 +1,7 @@
 {
   "name": "githistory",
   "scripts": {
-    "dev": "solid-start dev",
+    "dev": "solid-start dev --port 4000",
     "build": "solid-start build",
     "start": "solid-start start"
   },
@@ -18,6 +18,7 @@
     "@solidjs/meta": "^0.28.2",
     "@solidjs/router": "^0.7.0",
     "isomorphic-git": "^1.22.0",
+    "memfs": "^3.4.13",
     "solid-js": "^1.6.11",
     "solid-start": "^0.2.23",
     "undici": "^5.15.1"
