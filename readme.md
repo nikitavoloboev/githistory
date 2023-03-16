@@ -2,7 +2,7 @@
 
 > Travel through git history of any repo.
 
-Is used as test case to learn how [isomorphic-git](https://github.com/isomorphic-git/isomorphic-git) works. To extend it to add [sparse checkout](https://github.com/isomorphic-git/isomorphic-git/issues/1735) option.
+Is currently used as test case to learn how [isomorphic-git](https://github.com/isomorphic-git/isomorphic-git) works. To extend it to add [sparse checkout](https://github.com/isomorphic-git/isomorphic-git/issues/1735) option.
 
 All credit to [Inlang](https://github.com/inlang/inlang) as it uses its code in this app.
 
