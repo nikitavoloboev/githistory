@@ -19,9 +19,13 @@
     "@solidjs/router": "^0.7.0",
     "solid-js": "^1.6.11",
     "solid-start": "^0.2.23",
-    "undici": "^5.15.1"
+    "undici": "^5.15.1",
+    "isomorphic-git": "link:../../../clones/isomorphic-git"
   },
   "engines": {
     "node": ">=16"
+  },
+  "prettier": {
+    "semi": false
   }
 }
