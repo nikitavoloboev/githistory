@@ -17,5 +17,5 @@ export function EditorStateProvider(props: { children: JSXElement }) {
     createFsFromVolume(new Volume())
   )
 
-  return <></>
+  return <>{props.children}</>
 }
