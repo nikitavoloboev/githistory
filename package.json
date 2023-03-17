@@ -17,7 +17,7 @@
   "dependencies": {
     "@solidjs/meta": "^0.28.2",
     "@solidjs/router": "^0.7.0",
-    "isomorphic-git": "file:../../../clones/isomorphic-git",
+    "isomorphic-git": "file:/Users/nikiv/clones/isomorphic-git",
     "memfs": "^3.4.13",
     "solid-js": "^1.6.11",
     "solid-start": "^0.2.23",
