@@ -13,9 +13,10 @@ import { createFsFromVolume, Volume } from "memfs"
 export function EditorStateProvider(props: { children: JSXElement }) {
   const [fsChange, setFsChange] = createSignal(new Date())
 
-  const [fs, setFs] = createSignal<typeof import("memfs").fs>(
-    createFsFromVolume(new Volume())
-  )
+  // TODO: add polyfill
+  // const [fs, setFs] = createSignal<typeof import("memfs").fs>(
+  //   createFsFromVolume(new Volume())
+  // )
 
   return <>{props.children}</>
 }
