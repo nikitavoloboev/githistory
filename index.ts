@@ -1,7 +1,7 @@
-import git from "isomorphic-git"
+// import git from "isomorphic-git"
 // import { createFsFromVolume, Volume } from "memfs"
 
-console.log(git)
+// console.log(git)
 // const fs = createFsFromVolume(new Volume())
 // console.log(fs)
 

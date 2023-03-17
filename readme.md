@@ -1,12 +1,12 @@
 # Git History
 
-> Travel through git history of any repo.
+> Travel through git history, see diffs.
 
-Is currently used as test case to learn how [isomorphic-git](https://github.com/isomorphic-git/isomorphic-git) works. To extend it to add [sparse checkout](https://github.com/isomorphic-git/isomorphic-git/issues/1735) option.
+Idea is to be able to traverse through any Git history nicely in one signal page web app. [Press on commits in history, see the diffs, maybe even run the code with whatever files exist on that commit](https://twitter.com/nikitavoloboev/status/1636518334035361805).
 
-All credit to [Inlang](https://github.com/inlang/inlang) as it uses its code in this app.
+It's also used as a way to test [Git TS SDK](https://github.com/nikitavoloboev/git).
 
-In future, this app should [allow going back in history of any repo and easily seeing diffs of each commit. Maybe even spin up or run the code in a shell for any commit, in the browser](https://github.com/isomorphic-git/isomorphic-git).
+Credit for front end code to [Inlang](https://github.com/inlang/inlang).
 
 ## Run
 

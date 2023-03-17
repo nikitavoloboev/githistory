@@ -11,8 +11,7 @@
     "types": ["solid-start/env"],
     "baseUrl": "./",
     "paths": {
-      "~/*": ["./src/*"],
-      "isomorphic-git": ["/Users/nikiv/clones/isomorphic-git"]
+      "~/*": ["./src/*"]
     }
   }
 }
